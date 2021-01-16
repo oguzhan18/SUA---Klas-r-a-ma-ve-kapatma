@@ -1,0 +1,21 @@
+﻿uygulama.ismi="Klosör oluşturma";
+uygulama.açıklama="deneme";
+uygulama.yazar="OĞUZHAN ÇART";
+uygulama.versiyon="1.1v";
+uygulama.renk=renkler.mavi;	
+btn = buton("Klosör oluştur");
+btn.renk = renkler.kırmızı;
+btn.genişlik="380";
+btn.tıklandı={klasör.oluştur("C:\Users\ÇART APP\Desktop/Deneme");};
+a = buton("SİL");
+a.üst="21";
+a.genişlik="380";
+a.tıklandı={klasör.sil("C:\Users\ÇART APP\Desktop/Deneme");};
+a.renk = renkler.mavi;
+b =buton("Uygulamayı kapat");
+b.tıklandı={kapat();};
+b.üst="42";
+b.genişlik="380";
+b.renk = renkler.kahve;
+
+
